@@ -9,6 +9,8 @@
     <style>
         * {
             scroll-behavior: smooth;
+            margin: 0;
+            padding: 0;
         }
 
         .section1 {
@@ -21,58 +23,99 @@
             background-color: #278faa;
             height: 500px;
         }
+
+        .lists {
+            padding: 24px 17px;
+            margin: 0px 12px;
+        }
+
+        .lists li {
+            list-style: none;
+            display: inline;
+
+        }
+
+        .lists a {
+            text-decoration: none;
+            padding: 0px 27px;
+            margin: 10px 7px;
+
+
+            font-size: 18px;
+            font-weight: 400;
+
+        }
+
+        #html-entities {
+            padding: 23px 74px;
+        }
     </style>
 </head>
 
 <body>
-    <h2>Example of html entities</h2>
+    <ul class="lists">
+        <a href="#html-entities">
+            <li>HTML- entities</li>
 
-    <h4>The less-than sign: &lt;</h4>
+        </a>
+        <a href="#nested-list">
+            <li>Eeasted list</li>
 
-    <h4>The greater-than sign: &gt;</h4>
+        </a>
 
-    <h5>example : &lt;h1&gt;&lt;/h1&gt;</h5>
-
-
-    <h4>the amperdend: &amp;</h4>
-
-    <h4>double quotation mark: &quot;</h4>
-    <h5>example: &quot;My name is subash pariyar&quot; </h5>
-
-    <h4>single quotation mark (apostrophe): &#39; &apos;</h4>
-
-    <h5> example: &apos;this is single apostrophe&apos;</h5>
-
-    <h4>cent: &cent;</h4>
-
-    <h5>example: This cent symbol: &cent;</h5>
-
-
-    <h4>This Registerted trademark : &reg;</h4>
-
-    <h4>This is copyright symbol: &copy;</h4>
-
-    <h4>This is pound symbol: &pound;</h4>
-
-    <h4>This is Euro sign : &euro;</h4>
-
-    <h4>This is yen symbol : &yen;</h4>
-
-
-
-
-    <h1>Nested List examples:</h1>
-    <ul>
-        <li>Milk </li>
-        <li>Cord</li>
-        <ul>
-            <li>Subah like milk</li>
-            <li>Jenish donot like milk </li>
-        </ul>
-
-        <li>Vegatables</li>
-        <li>meat</li>
     </ul>
+    <section id="html-entities">
+        <h2>Example of html entities</h2>
+
+        <h4>The less-than sign: &lt;</h4>
+
+        <h4>The greater-than sign: &gt;</h4>
+
+        <h5>example : &lt;h1&gt;&lt;/h1&gt;</h5>
+
+
+        <h4>the amperdend: &amp;</h4>
+
+        <h4>double quotation mark: &quot;</h4>
+        <h5>example: &quot;My name is subash pariyar&quot; </h5>
+
+        <h4>single quotation mark (apostrophe): &#39; &apos;</h4>
+
+        <h5> example: &apos;this is single apostrophe&apos;</h5>
+
+        <h4>cent: &cent;</h4>
+
+        <h5>example: This cent symbol: &cent;</h5>
+
+
+        <h4>This Registerted trademark : &reg;</h4>
+
+        <h4>This is copyright symbol: &copy;</h4>
+
+        <h4>This is pound symbol: &pound;</h4>
+
+        <h4>This is Euro sign : &euro;</h4>
+
+        <h4>This is yen symbol : &yen;</h4>
+    </section>
+
+
+
+    <section id="nested-list">
+
+        <h1>Nested List examples:</h1>
+        <ul>
+            <li>Milk </li>
+            <li>Cord</li>
+            <ul>
+                <li>Subah like milk</li>
+                <li>Jenish donot like milk </li>
+            </ul>
+
+            <li>Vegatables</li>
+            <li>meat</li>
+        </ul>
+    </section>
 
 
 
